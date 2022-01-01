@@ -34,6 +34,10 @@ export const getLayoutProps = (props: any) => {
     'bottom',
     'top',
     'isRequired',
+    'w',
+    'width',
+    'h',
+    'height',
   ];
   return extractInObject(props, layoutProps);
 };
